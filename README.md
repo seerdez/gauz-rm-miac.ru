@@ -1,1 +1,0 @@
-# gauz-rm-miac.ru
