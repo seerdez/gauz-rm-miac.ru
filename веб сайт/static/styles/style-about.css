@@ -1,0 +1,115 @@
+/*Настройка контента на фоне*/
+body {
+	background-color: #f1f1f2;
+	margin: 0;
+	padding: 0;
+}
+/*Настройка параметров надписи даты*/
+.time-script{
+	font-family: Inter;
+	font-size:15px;
+	color:#5c86b5;
+	margin: 10px;
+}
+/*Навигационная панель*/
+.nav-container{
+	font-family: Inter;
+	display: flex;
+	justify-content: flex-end;
+	margin: 10px;
+	background-color: #fff;
+	border-radius: 5px;
+}
+.nav-container>nav>ul {
+	display: flex;
+	list-style: none;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+}
+.nav-container>nav>ul>li>a{
+	display: block;
+	padding: 10px;
+	border-style: solid;
+	border-width: 0,5px;
+	border-color: white;
+	border-radius: 5px;
+}
+/*Настройка параметров надписи*/
+.label {
+  background-image: url(https://u.9111s.ru/uploads/202112/28/ef6cffb4f9a0570bf90ee8ae7be41d1a.jpg);
+	height:400px;
+ 	width: 100%;
+	border-radius: 20px;
+	display: inline-block;
+}
+.label-vnt{
+  	font-family: Inter;
+	text-align: center;
+	color: #3c4573;
+	font-size: 50px;
+	position: relative;
+	top: 100px;
+}
+/*Настройка параметров кнопок и гиперссылки*/
+.links {
+	background: #779bc4;
+	color:#ffffff;
+	margin-left: 10px;
+  	margin-right: 10px;
+	border-radius: 20px;
+	position: relative;
+	top: 10px;
+ 	font-family: Inter;
+	text-align: left;
+	font-size: 18px;
+	padding: 5px;
+}
+
+.style-down-first{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 5px;
+}
+.style-down-two{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 5px;
+}
+.history{
+	margin: 5px;
+}
+.btn{
+	 border: none;
+	 outline: none;
+	 display: inline-block;
+	 text-align: center;
+	 text-decoration: none;
+	 cursor: pointer;
+	 font-size: 16px;
+	 font-family: Inter;
+	 padding: 12px 16px;
+	 margin: 10px;
+	 border-radius: 20px;
+	 color: #ffffff;
+	 background-color: #49688c;
+}
+.btn-two{
+	border: none;
+	outline: none;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 16px;
+	font-family: Inter;
+	padding: 12px 16px;
+	margin: 10px;
+	border-radius: 20px;
+	color: #ffffff;
+	background-color: #49688c;
+}
+
+  
